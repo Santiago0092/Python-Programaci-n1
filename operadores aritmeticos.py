@@ -11,3 +11,8 @@ ejemplo3 = 3*(4+(2)*(3+5))+2
 print(ejemplo3)
 ejemplo4 = 2*(4*(7+4*6)-3*32)
 print(ejemplo4)
+ejemplo5 = math.pow(2,3)
+print(ejemplo5)
+ejemplo6 = math.sqrt(16)
+print(f"ejemplo6) = {ejemplo6}")
+
