@@ -11,7 +11,5 @@ Rectangulo= base*Altura2
 print(f"el area del rectangulo es: {Rectangulo}")
 area_total= Triangulo+Rectangulo
 print(f"el area total del terreno es: {area_total}")
-radio= float(input("ingrese el radio del terreno- circular: "))
-Circulo= math.pi*(math.pow(radio**2))
-print(f"el area del circulo es: {Circulo}")
+
 
