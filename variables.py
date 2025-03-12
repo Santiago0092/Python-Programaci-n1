@@ -12,7 +12,7 @@ booleano = False
 print(type(booleano))
 parrafo = """
 Estudiante: Johand Santiago Monroy Cortés
-Correo: johandmonroy224@unisangil.edu.co
+Correo: johandmonroy224@unisangil.edu.co 
 celular: 3142408741
 """
 print(type(parrafo))
