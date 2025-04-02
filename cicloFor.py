@@ -1,4 +1,5 @@
 # Ciclo for
+numero = float(input("Ingrese un número para multiplicar: "))
 for i in range(1, 10, 2):
     print(i)
 
@@ -10,6 +11,14 @@ for arroz in x:
         break
     else:
        print(arroz)
-       #tabala de multiplicar
+       #tabla de multiplicar
 for mul in range(1, 11):
-    print(f"2 x {mul} = {2*mul}")
+    print(f"{numero} x {mul} = {numero*mul}")
+
+for pares in range(1, 10):
+    if pares % 2 == 0:
+        print(pares, "es par")
+        
+    else:
+        print(pares, "es impar")
+       
