@@ -62,3 +62,19 @@ for estudiante in estudiantes["Estudiante"]:
     print(estudiante["cedula"])
 
     print(programacion.items())
+    for estudiante in estudiantes["Estudiante"]:
+      print((estudiantes.keys()))
+    print((Diccionario.keys()))  
+
+    print((Diccionario.get("estado")))
+    print((Diccionario.get("universidad")))
+
+    #agregar informacion a un diccionario
+    programacion["programa"] = "ingeniera de sistemas"
+
+    print(programacion)
+
+    estudiantes["Estudiante4"] = "nombre" "Juan"
+
+    print (estudiantes)
+
